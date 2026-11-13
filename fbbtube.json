@@ -1,0 +1,10 @@
+{
+ "id": "fbbtube",
+ "name": "FBB Tube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "fbbtube\\.com/videos/[a-z0-9-]+",
+ "icon": "fbbtube.png",
+ "script": "fbbtube.js"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "bdsmstreak",
+ "name": "BdsmStreak",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bdsmstreak\\.com/video/\\d+/[^\\s\"?#]+",
+ "icon": "bdsmstreak.png",
+ "html": {
+  "site": "https://bdsmstreak.com",
+  "search": "https://bdsmstreak.com/search?q={q}",
+  "searchPage": "https://bdsmstreak.com/search?q={q}&page={p}",
+  "card": "<a href=\"/video/",
+  "href": "href=\"(/video/\\d+/[^\"]+)\"",
+  "linkPrefix": "https://bdsmstreak.com",
+  "title": "<h3[^>]*>([^<]+)</h3>",
+  "thumb": "src=\"(https://[a-z0-9.]*bdsmstreak\\.com/media/videos/tmb/[^\"]+)\"",
+  "duration": "duration-pill\">([0-9]+:[0-9:]+)<",
+  "views": "<span>([0-9,]+) views</span>",
+  "skip": "(?i)\\b(lezdom\\w*|lez|lesbi\\w*|lesbo\\w*|sapphic|sissy\\w*|femboy\\w*|trans|tgirl\\w*|shemale\\w*|gay|maledom gay)\\b",
+  "paged": true
+ }
+}

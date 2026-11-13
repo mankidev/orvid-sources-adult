@@ -1,0 +1,10 @@
+{
+ "id": "xfetish",
+ "name": "X-Fetish",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "x-fetish\\.tube/video/\\d+/[^\\s\"?#]+",
+ "icon": "xfetish.png",
+ "script": "xfetish.js"
+}
