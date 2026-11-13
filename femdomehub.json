@@ -1,0 +1,11 @@
+{
+ "id": "femdomehub",
+ "name": "FemdomeHub",
+ "version": 1,
+ "adult": true,
+ "torless": true,
+ "weight": 0.5,
+ "match": "femdomehub\\.com/\\d+/[^\\s\"?#]+",
+ "icon": "femdomehub.png",
+ "script": "femdomehub.js"
+}

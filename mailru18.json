@@ -1,0 +1,11 @@
+{
+ "id": "mailru18",
+ "name": "Mail.ru 18+",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "torless": true,
+ "match": "my\\.mail\\.ru/(?:mail|bk|list|inbox|ya|v|community)/[^/\\s\"]+/video/[^\\s\"?#]+\\.html",
+ "icon": "mailru18.png",
+ "script": "mailru18.js"
+}

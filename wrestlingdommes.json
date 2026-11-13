@@ -1,0 +1,11 @@
+{
+ "id": "wrestlingdommes",
+ "name": "WrestlingDommes",
+ "version": 1,
+ "adult": true,
+ "torless": true,
+ "weight": 0.5,
+ "match": "wrestlingdommes\\.com/\\d{4}/\\d{2}/\\d{2}/[^\\s\"?#]+",
+ "icon": "wrestlingdommes.png",
+ "script": "wrestlingdommes.js"
+}
