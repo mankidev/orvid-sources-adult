@@ -4,6 +4,7 @@ function search(query, next) {
   var page = next ? parseInt(next, 10) : 1;
   var q = encodeURIComponent(query);
   var html = http.get(page > 1 ? SITE + "/search/" + page + "?q=" + q : SITE + "/search?q=" + q);
+  if (html.indexOf("No results found") >= 0) return { items: [], next: null };
   var re = /<a href="(https:\/\/pornone\.com\/[^"]+\/\d+\/)"[^>]*videocard[^>]*>/g, m, cards = [];
   while ((m = re.exec(html))) cards.push({ at: m.index, link: m[1] });
   var items = [], seen = {};

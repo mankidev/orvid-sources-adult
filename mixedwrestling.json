@@ -1,0 +1,21 @@
+{
+ "id": "mixedwrestling",
+ "name": "Mixed Wrestling Tube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "mixedwrestling\\.video/watch/[A-Za-z0-9]+",
+ "icon": "mixedwrestling.png",
+ "html": {
+  "site": "https://mixedwrestling.video",
+  "search": "https://mixedwrestling.video/search?keyword={q}",
+  "searchPage": "https://mixedwrestling.video/search?keyword={q}&page_id={p}",
+  "card": "<div class=\"video-latest-list video-wrapper\"",
+  "href": "href=\"(https?://mixedwrestling\\.video/watch/[A-Za-z0-9]+)\"",
+  "title": "<h4 title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://mixedwrestling\\.video/upload/photos/[^\"]+)\"",
+  "duration": "class=\"video-duration\">([0-9:]+)<",
+  "views": "<span>([0-9.,]+[KkMm]?) views</span>",
+  "paged": true
+ }
+}

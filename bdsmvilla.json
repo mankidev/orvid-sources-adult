@@ -1,0 +1,22 @@
+{
+ "id": "bdsmvilla",
+ "name": "BdsmVilla",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bdsmvilla\\.com/video/\\d+/[^\\s\"?#]+",
+ "icon": "bdsmvilla.png",
+ "html": {
+  "site": "https://bdsmvilla.com",
+  "search": "https://bdsmvilla.com/search?q={q}",
+  "searchPage": "https://bdsmvilla.com/search?q={q}&page={p}",
+  "card": "<a class=\"group block\" href=\"/video/",
+  "href": "href=\"(/video/\\d+/[^\"]+)\"",
+  "linkPrefix": "https://bdsmvilla.com",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "backdrop-blur-sm\">([0-9]+:[0-9:]+)<",
+  "iframe": "<iframe[^>]*src=\"(https://bdsmstreak\\.com/embed/[^\"]+)\"",
+  "paged": true
+ }
+}

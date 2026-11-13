@@ -3,7 +3,7 @@
  "name": "PornOne",
  "rank": 19,
  "engine": "pornone",
- "version": 2,
+ "version": 3,
  "adult": true,
  "weight": 0.6,
  "match": "https://pornone\\.com/[^\\s\"?#]+/\\d+/?",
