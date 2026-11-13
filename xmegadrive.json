@@ -1,0 +1,10 @@
+{
+ "id": "xmegadrive",
+ "name": "xMegaDrive",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xmegadrive\\.com/videos/[a-z0-9-]+",
+ "icon": "xmegadrive.png",
+ "script": "xmegadrive.js"
+}

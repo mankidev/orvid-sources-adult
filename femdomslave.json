@@ -1,0 +1,21 @@
+{
+ "id": "femdomslave",
+ "name": "Femdom Slave",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "femdom-slave\\.com/\\d+/[^\\s\"?#]+\\.html",
+ "icon": "femdomslave.png",
+ "html": {
+  "site": "https://www.femdom-slave.com",
+  "search": "https://www.femdom-slave.com/search/{qp}",
+  "searchPage": "https://www.femdom-slave.com/search/{qp}/page/{p}",
+  "card": "<div class=\"thumbBlock\"",
+  "href": "href=\"(https://www\\.femdom-slave\\.com/\\d+/[^\"]+\\.html)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https://cdn\\.femdom-slave\\.com/i/[^\"]+\\.jpg)\"",
+  "views": "\\(([0-9,]+) views\\)",
+  "skip": "(?i)\\b(lezdom\\w*|lez|lesbi\\w*|lesbo\\w*|sapphic|sissy\\w*|femboy\\w*|trans|tgirl\\w*|shemale\\w*|gay|slave ?girls?|girls? slaves?|female slaves?|slavegirls?)\\b",
+  "paged": true
+ }
+}
