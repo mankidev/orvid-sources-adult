@@ -13,9 +13,12 @@ function search(query, next) {
     var b = html.substring(cards[i].at, end);
     if (seen[cards[i].link]) continue;
     seen[cards[i].link] = true;
-    var thumb = /<img src="(https:\/\/[^"]+)"\s+alt="([^"]*)"[^>]*imgvideo/.exec(b);
+    var tag = /<img [^>]*imgvideo[^>]*>/.exec(b);
+    tag = tag ? tag[0] : "";
+    var src = /data-src="(https:\/\/[^"]+)"/.exec(tag) || /\ssrc="(https:\/\/[^"]+)"/.exec(tag);
+    var alt = /alt="([^"]*)"/.exec(tag);
     var title = /class="videotitle[^"]*">\s*([^<]+)</.exec(b);
-    var name = title ? title[1] : thumb ? thumb[2] : null;
+    var name = title ? title[1] : alt ? alt[1] : null;
     if (!name) continue;
     var duration = /durlabel">(?:\s*<img[^>]*>)?\s*([0-9:]+)/.exec(b);
     items.push({
@@ -23,7 +26,7 @@ function search(query, next) {
       title: util.unescape(name),
       author: "",
       duration: duration ? util.duration(duration[1]) : -1,
-      thumb: thumb ? thumb[1] : null
+      thumb: src ? src[1] : null
     });
   }
   return { items: items, next: items.length && html.indexOf("/search/" + (page + 1) + "?q=") >= 0 ? String(page + 1) : null };
