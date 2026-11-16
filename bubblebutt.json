@@ -1,0 +1,10 @@
+{
+ "id": "bubblebutt",
+ "name": "Bubble Butt",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bubblebutt\\.tv/videos/[^\\s\"?#]+\\.html",
+ "icon": "bubblebutt.png",
+ "script": "bubblebutt.js"
+}

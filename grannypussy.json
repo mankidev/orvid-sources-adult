@@ -1,0 +1,10 @@
+{
+ "id": "grannypussy",
+ "name": "Granny Pussy",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "grannypussy\\.com/videos/[^\\s\"?#]+\\.html",
+ "icon": "grannypussy.png",
+ "script": "grannypussy.js"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "cuckoldplace",
+ "name": "Cuckoldplace",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "cuckoldplace\\.xxx/video/[^\\s\"?#]+",
+ "icon": "cuckoldplace.png",
+ "html": {
+  "site": "https://cuckoldplace.xxx",
+  "search": "https://cuckoldplace.xxx/search/{qp}/",
+  "searchPage": "https://cuckoldplace.xxx/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.cuckoldplace\\.xxx/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

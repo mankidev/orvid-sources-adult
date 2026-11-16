@@ -1,0 +1,10 @@
+{
+ "id": "many",
+ "name": "Many",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "many\\.xxx/videos/\\d+/[^\\s\"?#]+",
+ "icon": "many.png",
+ "script": "many.js"
+}

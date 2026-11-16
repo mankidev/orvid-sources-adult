@@ -1,0 +1,20 @@
+{
+ "id": "trycuckold",
+ "name": "Trycuckold",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "trycuckold\\.com/videos/[^\\s\"?#]+",
+ "icon": "trycuckold.png",
+ "html": {
+  "site": "https://trycuckold.com",
+  "search": "https://trycuckold.com/search/{qp}/",
+  "searchPage": "https://trycuckold.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.trycuckold\\.com/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

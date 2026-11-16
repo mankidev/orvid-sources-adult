@@ -1,0 +1,10 @@
+{
+ "id": "hotwifenation",
+ "name": "Hotwife Nation",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hotwifenation\\.com/watch/[^\\s\"?#]+",
+ "icon": "hotwifenation.png",
+ "script": "hotwifenation.js"
+}

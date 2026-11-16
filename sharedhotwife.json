@@ -1,0 +1,10 @@
+{
+ "id": "sharedhotwife",
+ "name": "Shared Hotwife",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sharedhotwife\\.com/watch/[^\\s\"?#]+",
+ "icon": "sharedhotwife.png",
+ "script": "sharedhotwife.js"
+}
