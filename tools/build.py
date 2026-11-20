@@ -1,8 +1,8 @@
 import base64, hashlib, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NAME = "Orvid secret"
-KEY = os.environ.get("ORVID_SECRET_KEY", os.path.expanduser("~/keys/orvid-sources-secret.pem"))
+NAME = "Orvid adult"
+KEY = os.environ.get("ORVID_ADULT_KEY", os.path.expanduser("~/keys/orvid-sources-adult.pem"))
 SAFE = re.compile(r"^[A-Za-z0-9_\-]+\.(json|js|png|webp)$")
 
 
