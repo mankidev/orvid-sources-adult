@@ -1,0 +1,20 @@
+{
+ "id": "wankyjob",
+ "name": "Wankyjob",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "wankyjob\\.com/videos/[^\\s\"?#]+",
+ "icon": "wankyjob.png",
+ "html": {
+  "site": "https://wankyjob.com",
+  "search": "https://wankyjob.com/search/{qp}/",
+  "searchPage": "https://wankyjob.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://wankyjob\\.com/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "cloudbate",
+ "name": "Cloudbate",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "cloudbate\\.com/video/[^\\s\"?#]+",
+ "icon": "cloudbate.png",
+ "html": {
+  "site": "https://cloudbate.com",
+  "search": "https://cloudbate.com/search/{qp}/",
+  "searchPage": "https://cloudbate.com/search/{qp}/{p}/",
+  "card": "<a class=\"thumb\"",
+  "href": "href=\"(https?://www\\.cloudbate\\.com/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https?://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

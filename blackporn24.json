@@ -1,0 +1,20 @@
+{
+ "id": "blackporn24",
+ "name": "Blackporn24",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "blackporn24\\.com/videos/[^\\s\"?#]+",
+ "icon": "blackporn24.png",
+ "html": {
+  "site": "https://blackporn24.com",
+  "search": "https://blackporn24.com/search/{qp}/",
+  "searchPage": "https://blackporn24.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://blackporn24\\.com/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

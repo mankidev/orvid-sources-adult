@@ -1,0 +1,19 @@
+{
+ "id": "eatout",
+ "name": "Eatout",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "eatout\\.xxx/watch/[^\\s\"?#]+",
+ "icon": "eatout.png",
+ "html": {
+  "site": "https://eatout.xxx",
+  "search": "https://eatout.xxx/search/{qp}/",
+  "card": "<a class=\"card-title watch-link\"",
+  "href": "href=\"(/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "linkPrefix": "https://eatout.xxx"
+ }
+}

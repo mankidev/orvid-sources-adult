@@ -1,0 +1,21 @@
+{
+ "id": "scatarchive",
+ "name": "Scatarchive",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "scatarchive\\.com/v/[^\\s\"?#]+",
+ "icon": "scatarchive.png",
+ "html": {
+  "site": "https://scatarchive.com",
+  "search": "https://scatarchive.com/?s={qp}",
+  "searchPage": "https://scatarchive.com/?s={qp}&page={p}",
+  "card": "<a class=\"video-card__thumb exo-popunder-video-click\"",
+  "href": "href=\"(/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(/[^\"?]+\\.(?:jpg|webp|png))",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "linkPrefix": "https://scatarchive.com"
+ }
+}
