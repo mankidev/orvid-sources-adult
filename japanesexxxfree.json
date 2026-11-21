@@ -1,0 +1,20 @@
+{
+ "id": "japanesexxxfree",
+ "name": "Japanesexxxfree",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "japanesexxxfree\\.com/video/[^\\s\"?#]+",
+ "icon": "japanesexxxfree.png",
+ "html": {
+  "site": "https://www.japanesexxxfree.com",
+  "search": "https://www.japanesexxxfree.com/search/{qp}/",
+  "searchPage": "https://www.japanesexxxfree.com/search/{qp}/page{p}.html",
+  "card": "<div class=\"item-inner-col inner-col\"",
+  "href": "href=\"(https?://www\\.japanesexxxfree\\.com/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

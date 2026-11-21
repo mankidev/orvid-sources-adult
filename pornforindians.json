@@ -1,0 +1,18 @@
+{
+ "id": "pornforindians",
+ "name": "Pornforindians",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornforindians\\.net/videos/[^\\s\"?#]+",
+ "icon": "pornforindians.png",
+ "html": {
+  "site": "https://pornforindians.net",
+  "search": "https://pornforindians.net/?s={qp}",
+  "card": "<div class=\"thumb capt\"",
+  "href": "href=\"(/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://pornforindians.net"
+ }
+}
