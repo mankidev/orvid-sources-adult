@@ -1,0 +1,20 @@
+{
+ "id": "blackporn8",
+ "name": "Blackporn8",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "blackporn8\\.com/videos/[^\\s\"?#]+",
+ "icon": "blackporn8.png",
+ "html": {
+  "site": "https://blackporn8.com",
+  "search": "https://blackporn8.com/search/{qp}/",
+  "searchPage": "https://blackporn8.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.blackporn8\\.com/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}
