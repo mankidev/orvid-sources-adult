@@ -1,0 +1,19 @@
+{
+ "id": "mydesi",
+ "name": "Mydesi",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "mydesi\\.com\\.co/videos/[^\\s\"?#]+",
+ "icon": "mydesi.png",
+ "html": {
+  "site": "https://mydesi.com.co",
+  "search": "https://mydesi.com.co/search/{qp}",
+  "card": "<a class=\"relative block aspect-video bg-[#e8e8e8] overflow-hidden sm:rounded\"",
+  "href": "href=\"(/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "linkPrefix": "https://mydesi.com.co",
+  "thumb": "srcSet=\"(/_next/image\\?url=[^ \"]+)"
+ }
+}

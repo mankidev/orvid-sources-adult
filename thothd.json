@@ -1,0 +1,20 @@
+{
+ "id": "thothd",
+ "name": "M",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "m\\.thothd\\.com/videos/[^\\s\"?#]+",
+ "icon": "thothd.png",
+ "html": {
+  "site": "https://m.thothd.com",
+  "search": "https://m.thothd.com/search/{qp}/",
+  "searchPage": "https://m.thothd.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://m\\.thothd\\.com/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https?://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

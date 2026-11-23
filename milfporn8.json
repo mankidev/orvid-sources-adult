@@ -1,0 +1,20 @@
+{
+ "id": "milfporn8",
+ "name": "Milfporn8",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "milfporn8\\.net/videos/[^\\s\"?#]+",
+ "icon": "milfporn8.png",
+ "html": {
+  "site": "https://milfporn8.net",
+  "search": "https://milfporn8.net/search/{qp}/",
+  "searchPage": "https://milfporn8.net/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"preview item  \"",
+  "href": "href=\"(https?://milfporn8\\.net/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}
